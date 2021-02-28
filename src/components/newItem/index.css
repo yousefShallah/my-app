@@ -1,0 +1,75 @@
+.newItem-continer{
+    width: 40%;
+    margin: 2em auto;
+    background: #fdfdfd;
+    border: #fdfdfd 1px solid;
+    padding: 1em 2em;
+    box-shadow: 0px 0px 20px #e6e6e6;
+}
+.input-item{
+    border-radius: 30px;
+    padding: 1em;
+    width: 420px;
+    border: 1px solid #4d4d4d;
+}
+.btn-add{
+    width: 130px;
+    height: 40px;
+    border: none;
+    background-color: #067fc5;
+    border-radius: 30px;
+    color: #fff;
+    margin: 0em 1em;
+}
+.btn-add:hover{
+    cursor: pointer;
+    background: #35aaee;
+}
+.commit-list{
+    width: 100%;
+    text-align: left;
+    padding: 1em 0em;
+    margin: auto;
+}
+.commit-list li {
+    list-style: none;
+    font-size: 18px;
+    background: #067fc5;
+    margin: .2em 0em;
+    padding: 1em;
+    border-radius: 2px;
+    color: #fff;
+}
+.form-contienr{
+    width: 100%;
+    margin: auto;
+}
+.commit-count{
+    font-size: 12px;
+    text-align: left;
+    width: 100%;
+}
+.commit-continer{
+    width: 100%;
+    border-top: 2px solid #4d4d4d;
+    padding: 1em 0em;
+    margin: auto;
+}
+.post-content{
+    text-align: left;
+    padding-bottom: 1em;
+}
+.user-content {
+    display: flex;
+}
+.user-content img{
+    width: 60px;
+    height: 60px;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 1em;
+}
+
+input,button{
+    outline: none !important;
+}
